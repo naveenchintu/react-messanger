@@ -1,0 +1,13 @@
+.inputfield{
+    width: 200px;
+    height: 20px;
+    padding :0 1rem;
+}
+.textbutton{
+font-size: 14px;
+    float: right;
+    height: 40px;
+    width: 80px;
+    background-color:paleturquoise;
+
+}

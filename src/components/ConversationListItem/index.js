@@ -10,6 +10,7 @@ export default class ConversationListItem extends Component {
 
   render() {
     const { subject, time, text, status } = this.props.data;
+    console.log(subject);
     let className = 'conversation-list-item' + status===0?'':' active';
     console.log(status, className);
     return (
