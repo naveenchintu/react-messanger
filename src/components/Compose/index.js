@@ -8,7 +8,8 @@ export default class Compose extends Component {
     return (
       <div className="compose">
         <button 
-        className="clip-button"><img onclick="javascript:alert(12)" className="clip-image" alt ="attachment" src={clip1}></img></button>
+          className="clip-button"><img className="clip-image" alt ="attachment" src={clip1}></img>
+        </button>
         <input
           type="text"
           className="compose-input"

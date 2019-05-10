@@ -159,7 +159,11 @@ export default class MessageList extends Component {
           ]}
         />
 
-        <div className="message-list-container">{this.renderMessages()}</div>
+        <div className="message-list-container">{this.renderMessages()}
+        <h4 className='error'>This message is not sent Please wait until...</h4></div>
+
+        
+        
 
         <Compose rightItems={[
           <ToolbarButton key="photo" icon="ion-ios-camera" />,
@@ -169,6 +173,8 @@ export default class MessageList extends Component {
           <ToolbarButton key="games" icon="ion-logo-game-controller-b" />,
           <ToolbarButton key="emoji" icon="ion-ios-happy" />
         ]}/>
+
+        
       </div>
     );
   }

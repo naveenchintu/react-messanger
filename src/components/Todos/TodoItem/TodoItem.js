@@ -13,12 +13,13 @@ export default class TodoItem extends Component{
     
     render(){
         const {id,title} = this.props.todo;
+        const newtitle = title.slice(0,title.lastIndexOf('i')); 
         return (
             <div  className = "todoitems" style={this.getStyle()}>
                 <form>
                     <p>
                         <input type="text" onChange={this.props.clickMe.bind(this,id)}/>
-                        {title}
+                        {newtitle}
                         <span onClick={this.props.delitem.bind(this,id)}  className="delbutton">Remove</span>
                     </p>
                 </form>
