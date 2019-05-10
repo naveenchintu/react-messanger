@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="./public/react-messenger.svg" height="150px" />
   <h1 align="center">React Messenger</h1>  
 </p>
 
